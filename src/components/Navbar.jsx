@@ -13,8 +13,9 @@ const Navbar = () => {
 
   return (
     <div className='flex items-center justify-between py-4'>
-        <Link to="/">
-      <img src={assets.logo} alt="" className='w-28 sm:w-32 lg:w-40'/>
+        <Link to="/" className='flex gap-3'>
+      <img src={assets.logo_icon} alt="" className='w-28 sm:w-32 lg:w-8'/>
+      <h1 className='text-xl sm:text-2xl font-bold'>ImageCraft</h1>
       </Link>
 
       <div>
